@@ -1,0 +1,83 @@
+/* Main Content */
+#about {
+    background: #ffffff;
+    padding: 30px 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.product {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.product h3 {
+    margin-top: 10px;
+}
+.product p {
+    margin-top: 10px;
+}
+.product .btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.product .btn:hover {
+    background: #e8491d;
+}
+
+/* Buttons */
+.container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container .btn:hover {
+    background: #e8491d;
+}
+
+.newsletter-signup {
+    margin-top: 30px; /* Space above newsletter section */
+    padding: 20px; /* Padding around the signup */
+    background-color: #ffffff; /* White background for the newsletter form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.newsletter-signup h2 {
+    font-size: 24px; /* Slightly larger heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.newsletter-signup p {
+    font-size: 16px; /* Clear description text */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center; /* Center the iframe horizontally */
+}
+
+iframe {
+    width: 100%; /* Set to 100% of its parent container */
+    max-width: 600px; /* Max width to maintain a good layout */
+    height: 400px; /* Set height for the iframe */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for the iframe */
+}

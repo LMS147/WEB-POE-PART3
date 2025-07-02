@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 80px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header .logo {
+    padding: 20px;
+    display: inline-block;
+   
+}
+header .logo img {
+    width: 120px;
+    height: auto;
+}
+header nav {
+    padding: 20px;
+    float: right;
+    margin-top: 10px;
+    
+}
+header nav ul {
+    padding: 0;
+}
+header nav li {
+    display: inline;
+    padding-left: 20px;
+}
+header nav a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.hero {
+   
+    position: relative;
+    text-align: center;
+    color: #fd3535;
+}
+.hero h1 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+#about {
+    background: #ffffff;
+    padding: 30px 0;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+.main-content .column {
+    width: 48%;
+}
+.column ul, .column ol {
+    padding-left: 20px;
+}
+.latest-news, .upcoming-events, .testimonials {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+}
+@media(max-width: 768px){
+    header nav, header nav li {
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 5px;
+    }
+    header .logo {
+        float: none;
+        text-align: center;
+    }
+    #showcase h1 {
+        font-size: 40px;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 15px;
+        border-top: 1px solid #555;
+    }
+}
+.container .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container .btn:hover{
+    background: #e8491d;    
+}
